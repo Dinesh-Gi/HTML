@@ -26,7 +26,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ASP-app
-          path: '/published/**'
+          path: 'JS calculater/index.html'
 
   deploy:
     runs-on: windows-latest
